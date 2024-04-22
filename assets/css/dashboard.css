@@ -1,0 +1,84 @@
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(../imgsite/design-background-qwq0y5ay5j8lw2ds.jpg);
+    background-size: cover;
+    color: white;
+}
+body{
+    margin: 0;
+    background-image: url(../imgsite/blue-purple-fluid-patterned-background_53876-100799.avif);
+    background-size: cover;
+}
+.title-container{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: flex-end;
+}
+.butOff-container{
+    display: flex;
+    width: 40%;
+    text-align: center;
+    justify-content: flex-end;
+}
+#butOff{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    border: solid 1px white;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 10px;
+}
+#butOff:hover{
+    color: red;
+}
+.imgUserContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.imgUser img{
+    width: 100px;
+}
+.imgUser{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: solid 2px rgb(0, 17, 255);
+    border-radius: 4px;
+    padding: 4px;
+    margin-top: 10px
+}
+#butAddLink{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    border: solid 1px white;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 10px;
+    text-align: center;
+}
+#butAddLink:hover{
+    color: rgb(71, 230, 23);
+}
+.delete-btn{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    border: solid 1px rgb(207, 60, 60);
+    padding: 3px;
+    height: fit-content;
+    border-radius: 4px;
+}
+.osef{
+    height: 4vh;
+}
